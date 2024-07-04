@@ -9,6 +9,13 @@ class B:
         return "quack b"
 
 
+# Duck Type: If it quacks like a duck...
+# https://en.wikipedia.org/wiki/Duck_test
+# (type is not defined, but there's an
+# implicit type that quacks -
+# so probably a duck
+# -> Dynamic Typing
+
 def method_wants_a_duck(duck):
     return duck.quack()
 
